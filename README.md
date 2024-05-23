@@ -9,6 +9,10 @@ Downloading the project from GitHub:
 ``` git
 git clone git@github.com:artemkaFismat/snb.git
 ```
+```
+cd ~/snb/
+pip install -r requirements.txt
+```
 ### Parameters
 To run the code, you need to create a list of search queries on the topic that interests you, and place them in the file **search_queries.txt**
 ### Start
