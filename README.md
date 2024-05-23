@@ -1,5 +1,5 @@
 # 🌟 snb 🌟
-## snb - a search robot for collecting images on the Internet, for preparing datasets and training neural networks.
+# snb - a search robot for collecting images on the Internet, for preparing datasets and training neural networks.
 
 ### Technologies
 - [Python](https://www.python.org)
