@@ -14,10 +14,10 @@ To run the code, you need to create a list of search queries on the topic that i
 ### Start
   **Launch options**
   ``` parametrs
-  1. *--count* - The number of images uploaded
-  2. *--aug* - Augmentation functions (True / False)
-  3. *--quality* - Quality (0 - 100%)
-  4. *--folder* - The path to the save folder
+  1. --count - The number of images uploaded
+  2. --aug - Augmentation functions (True / False)
+  3. --quality - Quality (0 - 100%)
+  4. --folder - The path to the save folder
   ```
   **Start**
   ``` Python
