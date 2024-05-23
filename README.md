@@ -10,7 +10,7 @@
 
 Downloading the project from GitHub:
 
-``` git
+```bat
 git clone git@github.com:artemkaFismat/snb.git
 ```
 
@@ -22,7 +22,7 @@ To run the code, you need to create a list of search queries on the topic that i
 
 Launch options:
 
-``` parametrs
+```text
 1. --count - The number of images uploaded
 2. --aug - Augmentation functions (True / False)
 3. --quality - Quality (0 - 100%)
@@ -31,7 +31,7 @@ Launch options:
 
 Launch project:
 
-``` Python
+```bat
 python3 snb.py --count 100 --aug True --quality 85 --folder /data/
 ```
 
