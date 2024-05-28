@@ -24,7 +24,7 @@ Launch options:
 
 ```text
 1. --count - The number of images uploaded
-2. --aug - Augmentation functions (True / False)
+2. --aug - Augmentation functions (true / false)
 3. --quality - Quality (0 - 100%)
 4. --folder - The path to the save folder
 ```
@@ -32,15 +32,5 @@ Launch options:
 Launch project:
 
 ```bat
-python3 snb.py --count 100 --aug True --quality 85 --folder /data/
+python3 snb.py --count 100 --aug true --quality 85 --folder /data/
 ```
-
-## The project team
-
-- Artem Podlegaev
-
-## Special Thanks
-
-I thank everyone who supported me in the preparation of the project.
-
-Special thanks to my parents and younger sister for their understanding and support.
