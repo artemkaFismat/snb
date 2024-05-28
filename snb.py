@@ -6,11 +6,12 @@ from urllib.request import urlopen
 import logging
 import argparse
 
-import cv2
-import numpy as np
-from yamager import Yamager
+import cv2  # type: ignore
+import numpy as np # type: ignore
+from yamager import Yamager # type: ignore
 
-from augmentation import *
+from augmentation import crop_transformations, rotate_transformations, scale_transformations, shear_transformations
+from augmentation import translate_transformations, b_contrast, addNoise_gaussian, addNoise_salt_pepper, addNoise_poisson
 
 yamager = Yamager()
 
