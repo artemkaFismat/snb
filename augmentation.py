@@ -1,5 +1,5 @@
-from augment.geometric import crop, rotate, scale, shear, translate
-from augment.photometric import brightness_contrast, colorSpace, addNoise
+from augment.geometric import crop, rotate, scale, shear, translate # type: ignore
+from augment.photometric import brightness_contrast, colorSpace, addNoise # type: ignore
 
 
 # Geometric transformation functions
@@ -50,9 +50,9 @@ def addNoise_gaussian(image, mean=0, var=0.08):
 
 # The function of making noise "pepper"
 def addNoise_salt_pepper(image, sp_ratio=0.5, noise_amount=0.1):
-    return addNoise(image, 'salt_pepper', sp_ratio, noise_amount)
+    return addNoise(image, 'salt_pepper', sp_ratio=sp_ratio, noise_amount=noise_amount)
 
 
 # Poisson noise reduction function
 def addNoise_poisson(image, noise_amount=0.5):
-    return addNoise(image, 'poisson', noise_amount)
+    return addNoise(image, 'poisson', noise_amount=noise_amount)
